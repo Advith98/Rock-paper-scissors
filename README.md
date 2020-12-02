@@ -1,2 +1,5 @@
 # Rock-paper-scissors-
-Play Rock-paper-scissors with the computer. A front end only project which uses HTML, Css and JavaScript 
+Play Rock-paper-scissors with the computer. 
+A front end project which uses HTML, Css and JavaScript 
+
+![](img/one.jpg)
