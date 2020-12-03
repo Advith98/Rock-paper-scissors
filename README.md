@@ -1,6 +1,8 @@
 # Rock-paper-scissors
 Play Rock-paper-scissors with the computer. <br/>
 A front end project which uses HTML, Css and JavaScript.
+# Live website
+[Click here to view the live website](https://advith98.github.io/Rock-paper-scissors/)
 
 <h2>Website </h2>
 
