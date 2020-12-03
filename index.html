@@ -1,72 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <div>
-            <img src="..\img\wind.png" alt="----\>" height="46px" class="headderImage2">
-            <span>Rock Paper Scissors</span>
-            <img src="F:\CTS learning\Front end dev\Rock paper scissors\img\wind.png" alt="----\>" height="46px" class="headderImage">
-    </div>
+      <div>
+        <img
+          src="./img/wind.png"
+          alt="----\>"
+          height="46px"
+          class="headderImage2"
+        />
+        <span>Rock Paper Scissors</span>
+        <img
+          src="./img/wind.png"
+          alt="----\>"
+          height="46px"
+          class="headderImage"
+        />
+      </div>
     </header>
 
     <div class="scoreBoard">
-        <div id="userLabel" class="badge">User</div>
-        <div id="computerLabel" class="badge">Comp</div>
-        <span id="userScore">0</span>:<span id="compScore">0</span>
-    </div>
-    
-    <div class="result">
-        <p>Paper covers rock. You win</p>
-    </div>
-    
-    <div class="choises">
-        <div class="choise" id="r">
-            <img src="F:\CTS learning\Front end dev\Rock paper scissors\img\rock.png" alt="rock" class="imgHover">
-        </div>
-        <div class="choise" id="p">
-            <img src="F:\CTS learning\Front end dev\Rock paper scissors\img\paper.png" alt="paper" class="imgHover">
-        </div>
-        <div class="choise" id="s">
-            <img src="F:\CTS learning\Front end dev\Rock paper scissors\img\scissors.png" alt="scissors" class="imgHover">
-        </div>
-    </div>
-    
-    <div id="makeYourMove">
-    <span >Make your move</span> 
-    <img src="F:\CTS learning\Front end dev\Rock paper scissors\img\up.png" alt="Up-arrow" class="upArrow" height="32px" >
+      <div id="userLabel" class="badge">User</div>
+      <div id="computerLabel" class="badge">Comp</div>
+      <span id="userScore">0</span>:<span id="compScore">0</span>
     </div>
 
-    <app-game-desc _ngcontent-c4="" _nghost-c5=""><div _ngcontent-c5="" class="container">
+    <div class="result">
+      <p>Paper covers rock. You win</p>
+    </div>
+
+    <div class="choises">
+      <div class="choise" id="r">
+        <img
+          src="./img/rock.png"
+          alt="rock"
+          class="imgHover"
+        />
+      </div>
+      <div class="choise" id="p">
+        <img
+          src="./img/paper.png"
+          alt="paper"
+          class="imgHover"
+        />
+      </div>
+      <div class="choise" id="s">
+        <img
+          src="./img/scissors.png"
+          alt="scissors"
+          class="imgHover"
+        />
+      </div>
+    </div>
+
+    <div id="makeYourMove">
+      <span>Make your move</span>
+      <img
+        src="./img/up.png"
+        alt="Up-arrow"
+        class="upArrow"
+        height="32px"
+      />
+    </div>
+
+    <app-game-desc _ngcontent-c4="" _nghost-c5=""
+      ><div _ngcontent-c5="" class="container">
         <section _ngcontent-c5="" class="game-desc">
           <h2 _ngcontent-c5="">About</h2>
-          <p _ngcontent-c5="">“Rock paper scissors” is a simple and interesting game. Many of us used to play it in a school to resolve disputes or just to spend some time. But how to play if your friends are far away? For this reason this website was created. It allows you to play with computer any time you want.</p>
-            <br> <br>
+          <p _ngcontent-c5="">
+            “Rock paper scissors” is a simple and interesting game. Many of us
+            used to play it in a school to resolve disputes or just to spend
+            some time. But how to play if your friends are far away? For this
+            reason this website was created. It allows you to play with computer
+            any time you want.
+          </p>
+          <br />
+          <br />
           <h2 _ngcontent-c5="">What are the rules?</h2>
-          <p _ngcontent-c5="">The rules are very simple and probably you remember them from your childhood:</p>
-      
+          <p _ngcontent-c5="">
+            The rules are very simple and probably you remember them from your
+            childhood:
+          </p>
+
           <ul _ngcontent-c5="" class="game-desc__list">
-            <li _ngcontent-c5="">If you choose Rock, you will win against Scissors but lose against Paper.</li>
-            <li _ngcontent-c5="">If you choose Scissors, you will win against Paper but lose against Rock.</li>
-            <li _ngcontent-c5="">If you choose Paper, you will win against Rock but lose against Scissors.</li>
+            <li _ngcontent-c5="">
+              If you choose Rock, you will win against Scissors but lose against
+              Paper.
+            </li>
+            <li _ngcontent-c5="">
+              If you choose Scissors, you will win against Paper but lose
+              against Rock.
+            </li>
+            <li _ngcontent-c5="">
+              If you choose Paper, you will win against Rock but lose against
+              Scissors.
+            </li>
           </ul>
-      
-                   
         </section>
       </div>
-      </app-game-desc>
+    </app-game-desc>
 
     <footer>
-        <div>
-            <p>Created By Advith TM</p>
-            <p id="copyright"> &#169; All rights recieved</p>
-        </div>
+      <div>
+        <p>Created By Advith TM</p>
+        <p id="copyright">&#169; All rights recieved</p>
+      </div>
     </footer>
-    <script src="app.js" charset="utf-8" ></script>
-</body>
+    <script src="app.js" charset="utf-8"></script>
+  </body>
 </html>
